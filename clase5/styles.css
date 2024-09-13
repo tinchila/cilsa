@@ -1,0 +1,37 @@
+/* Estilo normal */
+.container {
+    background-color: #cfbebe;
+    padding: 2rem;
+}
+
+/* Modo oscuro */
+.high-contrast {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.high-contrast .container{
+    background-color: #333333;
+}
+
+.high-contrast form {
+    background-color: #333333;
+}
+
+.high-contrast input[type="text"],
+.high-contrast input[type="email"],
+.high-contrast input[type="date"] {
+    background-color: #4f4f4f;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.high-contrast input[type="submit"],
+.high-contrast button {
+    background-color: #ffcc00;
+    color: #000000;
+}
+
+.high-contrast button:hover {
+    background-color: #ff9900;
+}
